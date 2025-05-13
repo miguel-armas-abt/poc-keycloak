@@ -1,0 +1,19 @@
+services:
+
+  keycloak-server:
+    container_name: keycloak-server
+    image: quay.io/keycloak/keycloak:16.0.0
+    restart: always
+    environment:
+      - KEYCLOAK_USER=admin
+      - DB_VENDOR=H2
+      - KEYCLOAK_PASSWORD=admin
+    networks:
+      - common-network
+    ports:
+      - "8091:8080"
+
+networks:
+  common-network:
+    driver: bridge
+    enable_ipv6: false
