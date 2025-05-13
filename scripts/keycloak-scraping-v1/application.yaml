@@ -1,10 +1,8 @@
 configuration:
   outputFile:
     absolutePath: C:\dev-workspace\poc-keycloak\
-    projectPath: scripts\
-    name: rs256-secret.yaml
+    filePath: scripts\rs256-secret.yaml
   driverPath: src/main/resources/drivers/chromedriver.exe
-  waitingTimeMillis: 1000
   login:
     uri: http://localhost:8091/auth/
     username: admin

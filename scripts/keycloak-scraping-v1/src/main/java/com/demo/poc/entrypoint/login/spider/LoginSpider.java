@@ -24,7 +24,7 @@ public class LoginSpider {
     Configuration properties = propertiesReader.get();
 
     driver.get(properties.getLogin().getUri());
-    sleepHelper.sleep(properties.getWaitingTimeMillis());
+    sleepHelper.basicSleep();
 
     WebElement adminConsoleButton = driver.findElement(By.linkText("Administration Console"));
     adminConsoleButton.click();

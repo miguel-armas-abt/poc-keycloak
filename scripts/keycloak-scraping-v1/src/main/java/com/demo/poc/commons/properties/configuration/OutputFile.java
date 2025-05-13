@@ -12,11 +12,10 @@ import lombok.Setter;
 public class OutputFile {
 
   private String absolutePath;
-  private String projectPath;
-  private String name;
+  private String filePath;
 
   @Override
   public String toString() {
-    return this.absolutePath + this.projectPath + this.name;
+    return this.absolutePath + this.filePath;
   }
 }
