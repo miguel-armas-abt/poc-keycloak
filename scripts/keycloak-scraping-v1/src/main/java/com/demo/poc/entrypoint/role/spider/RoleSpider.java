@@ -34,8 +34,9 @@ public class RoleSpider {
   private void createRole(ChromeDriver driver) {
     WebDriverWait wait = driverHelper.getWebDriverWait(driver);
     Configuration properties = propertiesReader.get();
+    String realmName = properties.getRealm().getName();
 
-    WebElement rolesOption = wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//a[contains(@href, '/realms/poc-management/roles')]")));
+    WebElement rolesOption = wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//a[contains(@href, '/realms/" + realmName + "/roles')]")));
     rolesOption.click();
 
     WebElement addRoleButton = wait.until(ExpectedConditions.elementToBeClickable(By.id("createRole")));

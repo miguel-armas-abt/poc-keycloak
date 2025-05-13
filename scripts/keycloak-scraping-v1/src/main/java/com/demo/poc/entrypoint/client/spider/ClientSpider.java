@@ -35,8 +35,9 @@ public class ClientSpider {
   private void createClient(ChromeDriver driver) {
     WebDriverWait wait = driverHelper.getWebDriverWait(driver);
     Configuration properties = propertiesReader.get();
+    String realmName = properties.getRealm().getName();
 
-    WebElement clientsOption = wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//a[contains(@href, '/realms/poc-management/clients')]")));
+    WebElement clientsOption = wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//a[contains(@href, '/realms/" + realmName + "/clients')]")));
     clientsOption.click();
 
     WebElement createClientButton = wait.until(ExpectedConditions.elementToBeClickable(By.id("createClient")));

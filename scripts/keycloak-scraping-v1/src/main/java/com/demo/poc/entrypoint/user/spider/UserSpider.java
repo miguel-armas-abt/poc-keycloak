@@ -36,8 +36,9 @@ public class UserSpider {
   private void createUser(ChromeDriver driver) {
     WebDriverWait wait = driverHelper.getWebDriverWait(driver);
     Configuration properties = propertiesReader.get();
+    String realmName = properties.getRealm().getName();
 
-    WebElement usersOption = wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//a[contains(@href, '/realms/poc-management/users')]")));
+    WebElement usersOption = wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//a[contains(@href, '/realms/" + realmName + "/users')]")));
     usersOption.click();
 
     WebElement addUserButton = wait.until(ExpectedConditions.elementToBeClickable(By.id("createUser")));

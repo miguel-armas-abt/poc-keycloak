@@ -35,8 +35,9 @@ public class AssignmentUserRoleSpider {
   private void findUser(ChromeDriver driver) {
     WebDriverWait wait = driverHelper.getWebDriverWait(driver);
     Configuration properties = propertiesReader.get();
+    String realmName = properties.getRealm().getName();
 
-    WebElement rolesOption = wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//a[contains(@href, '/realms/poc-management/users')]")));
+    WebElement rolesOption = wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//a[contains(@href, '/realms/" + realmName + "/users')]")));
     rolesOption.click();
 
     WebElement viewAllUsersButton = wait.until(ExpectedConditions.elementToBeClickable(By.id("viewAllUsers")));
@@ -59,7 +60,10 @@ public class AssignmentUserRoleSpider {
     WebElement roleMappingsTab = wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//a[contains(@href, 'role-mappings')]")));
     roleMappingsTab.click();
 
-    WebElement availableRoles = wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//option[@title='partners']")));
+    Configuration properties = propertiesReader.get();
+    String roleName = properties.getRole().getName();
+
+    WebElement availableRoles = wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//option[@title='" + roleName + "']")));
     availableRoles.click();
 
     WebElement addSelectedButton = wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//button[contains(text(),'Add selected')]")));
