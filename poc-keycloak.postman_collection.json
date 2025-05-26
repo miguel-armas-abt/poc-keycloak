@@ -1,9 +1,9 @@
 {
 	"info": {
-		"_postman_id": "728251f2-72a6-415a-b2a7-3d15d68933f6",
+		"_postman_id": "a95f8330-1a2f-46ae-9403-207320ee3b06",
 		"name": "poc-keycloak",
 		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
-		"_exporter_id": "33527392"
+		"_exporter_id": "13773998"
 	},
 	"item": [
 		{
@@ -55,7 +55,7 @@
 			},
 			"response": [
 				{
-					"name": "OK",
+					"name": "200",
 					"originalRequest": {
 						"method": "POST",
 						"header": [],
@@ -160,6 +160,204 @@
 					],
 					"cookie": [],
 					"body": "{\n    \"access_token\": \"eyJhbGciOiJSUzI1NiIsInR5cCIgOiAiSldUIiwia2lkIiA6ICJrZ2E3eGdjaHZVU2dYQWdicWJTcFR5WjBFbEdrbXN4aGNlQ2JTYlVCWnY0In0.eyJleHAiOjE2NzI2ODcwMjIsImlhdCI6MTY3MjY4NTIyMiwianRpIjoiM2M3YjkwNTctNzIyMS00MmIyLWE3OWYtNGM0OTI1YjE1NGE1IiwiaXNzIjoiaHR0cDovL2xvY2FsaG9zdDo4MDkxL2F1dGgvcmVhbG1zL2JicS1tYW5hZ2VtZW50IiwiYXVkIjoiYWNjb3VudCIsInN1YiI6ImJkOGUzZDljLWNjYWMtNDMxYy04MThiLTc3M2Q0MWZmN2EzYyIsInR5cCI6IkJlYXJlciIsImF6cCI6ImZyb250LWJicS1hcHAiLCJzZXNzaW9uX3N0YXRlIjoiZjE1YjdjNzEtNmExYy00OWExLWI5ZGYtNzE1NWNjZThlZGVlIiwiYWNyIjoiMSIsInJlYWxtX2FjY2VzcyI6eyJyb2xlcyI6WyJwYXJ0bmVycyIsIm9mZmxpbmVfYWNjZXNzIiwiZGVmYXVsdC1yb2xlcy1iYnEtbWFuYWdlbWVudCIsInVtYV9hdXRob3JpemF0aW9uIl19LCJyZXNvdXJjZV9hY2Nlc3MiOnsiYWNjb3VudCI6eyJyb2xlcyI6WyJtYW5hZ2UtYWNjb3VudCIsIm1hbmFnZS1hY2NvdW50LWxpbmtzIiwidmlldy1wcm9maWxlIl19fSwic2NvcGUiOiJwcm9maWxlIGVtYWlsIiwic2lkIjoiZjE1YjdjNzEtNmExYy00OWExLWI5ZGYtNzE1NWNjZThlZGVlIiwiZW1haWxfdmVyaWZpZWQiOmZhbHNlLCJwcmVmZXJyZWRfdXNlcm5hbWUiOiJhZG1pbiJ9.G8H8teTexbHrLq8hXIOuORxFTgeWKhbjaAWx5cfcpgGuxoC0bmx9Yc4KvAoyqLwh6ooURNwkoL2ohPZf1YgT98MwUrDp47BsYUeoXLzVFS2lVBMXTOIN8YU6fvFNECXo6WC-VMoC6Q5oKxydautgvmQg7t-7znIw2D5CgDSyDI18D_n31QGexvVy0PH2kQ6pt9HHuhbpSsy7hLItjRZQtefLkYmmQq5MRvyrL5gla0cWvL79G1iymni_YhG_WCvc2Ds5UPOsfCq9OEnSzNSoIuUQ02OH3LMYARCv5ysJ42ObBBz--yIAo6D07S1Sv6oOr6jp3suNL5Okhp6PSO3alw\",\n    \"expires_in\": 1800,\n    \"refresh_expires_in\": 1800,\n    \"refresh_token\": \"eyJhbGciOiJIUzI1NiIsInR5cCIgOiAiSldUIiwia2lkIiA6ICIyMDA5M2I1Yi02MWI3LTQ0MmUtYjg2Yy0wYWNjMjljODIyNDgifQ.eyJleHAiOjE2NzI2ODcwMjIsImlhdCI6MTY3MjY4NTIyMiwianRpIjoiNDZmOTQ3YWEtN2VkMC00ZWU4LTk3ZDgtZDhiOWQ0YjA2YjYxIiwiaXNzIjoiaHR0cDovL2xvY2FsaG9zdDo4MDkxL2F1dGgvcmVhbG1zL2JicS1tYW5hZ2VtZW50IiwiYXVkIjoiaHR0cDovL2xvY2FsaG9zdDo4MDkxL2F1dGgvcmVhbG1zL2JicS1tYW5hZ2VtZW50Iiwic3ViIjoiYmQ4ZTNkOWMtY2NhYy00MzFjLTgxOGItNzczZDQxZmY3YTNjIiwidHlwIjoiUmVmcmVzaCIsImF6cCI6ImZyb250LWJicS1hcHAiLCJzZXNzaW9uX3N0YXRlIjoiZjE1YjdjNzEtNmExYy00OWExLWI5ZGYtNzE1NWNjZThlZGVlIiwic2NvcGUiOiJwcm9maWxlIGVtYWlsIiwic2lkIjoiZjE1YjdjNzEtNmExYy00OWExLWI5ZGYtNzE1NWNjZThlZGVlIn0.hdQOwX9ufyH8HWazTIMqoNcYDKcAk6BUyAX6V0NEeJE\",\n    \"token_type\": \"Bearer\",\n    \"not-before-policy\": 0,\n    \"session_state\": \"f15b7c71-6a1c-49a1-b9df-7155cce8edee\",\n    \"scope\": \"profile email\"\n}"
+				},
+				{
+					"name": "400 - invalid client",
+					"originalRequest": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "urlencoded",
+							"urlencoded": [
+								{
+									"key": "client_id",
+									"value": "front-poc-appx",
+									"type": "text"
+								},
+								{
+									"key": "grant_type",
+									"value": "password",
+									"type": "text"
+								},
+								{
+									"key": "username",
+									"value": "admin",
+									"type": "text"
+								},
+								{
+									"key": "password",
+									"value": "admin",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "http://localhost:8091/auth/realms/poc-management/protocol/openid-connect/token",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8091",
+							"path": [
+								"auth",
+								"realms",
+								"poc-management",
+								"protocol",
+								"openid-connect",
+								"token"
+							]
+						}
+					},
+					"status": "Bad Request",
+					"code": 400,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Cache-Control",
+							"value": "no-store"
+						},
+						{
+							"key": "X-XSS-Protection",
+							"value": "1; mode=block"
+						},
+						{
+							"key": "Pragma",
+							"value": "no-cache"
+						},
+						{
+							"key": "X-Frame-Options",
+							"value": "SAMEORIGIN"
+						},
+						{
+							"key": "Referrer-Policy",
+							"value": "no-referrer"
+						},
+						{
+							"key": "Date",
+							"value": "Mon, 26 May 2025 14:51:25 GMT"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"key": "Strict-Transport-Security",
+							"value": "max-age=31536000; includeSubDomains"
+						},
+						{
+							"key": "X-Content-Type-Options",
+							"value": "nosniff"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json"
+						},
+						{
+							"key": "Content-Length",
+							"value": "75"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"error\": \"invalid_client\",\n    \"error_description\": \"Invalid client credentials\"\n}"
+				},
+				{
+					"name": "401 - invalid user credentials",
+					"originalRequest": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "urlencoded",
+							"urlencoded": [
+								{
+									"key": "client_id",
+									"value": "front-poc-app",
+									"type": "text"
+								},
+								{
+									"key": "grant_type",
+									"value": "password",
+									"type": "text"
+								},
+								{
+									"key": "username",
+									"value": "admin",
+									"type": "text"
+								},
+								{
+									"key": "password",
+									"value": "adminx",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "http://localhost:8091/auth/realms/poc-management/protocol/openid-connect/token",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8091",
+							"path": [
+								"auth",
+								"realms",
+								"poc-management",
+								"protocol",
+								"openid-connect",
+								"token"
+							]
+						}
+					},
+					"status": "Unauthorized",
+					"code": 401,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Cache-Control",
+							"value": "no-store"
+						},
+						{
+							"key": "X-XSS-Protection",
+							"value": "1; mode=block"
+						},
+						{
+							"key": "Pragma",
+							"value": "no-cache"
+						},
+						{
+							"key": "X-Frame-Options",
+							"value": "SAMEORIGIN"
+						},
+						{
+							"key": "Referrer-Policy",
+							"value": "no-referrer"
+						},
+						{
+							"key": "Date",
+							"value": "Mon, 26 May 2025 14:51:48 GMT"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"key": "Strict-Transport-Security",
+							"value": "max-age=31536000; includeSubDomains"
+						},
+						{
+							"key": "X-Content-Type-Options",
+							"value": "nosniff"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json"
+						},
+						{
+							"key": "Content-Length",
+							"value": "72"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"error\": \"invalid_grant\",\n    \"error_description\": \"Invalid user credentials\"\n}"
 				}
 			]
 		},
@@ -183,7 +381,7 @@
 						},
 						{
 							"key": "refresh_token",
-							"value": "eyJhbGciOiJIUzI1NiIsInR5cCIgOiAiSldUIiwia2lkIiA6ICJkNzU5ZTgwNS1hZmNiLTRmYmMtOTg1ZC1iMGM0MDAzNTkwMmYifQ.eyJleHAiOjE3NDcxNzc4MDMsImlhdCI6MTc0NzE3NjAwMywianRpIjoiMTE0OTI2ZjgtYjczOC00MjA5LWE0NzItMDc3YzA2YTA4NDMyIiwiaXNzIjoiaHR0cDovL2xvY2FsaG9zdDo4MDkxL2F1dGgvcmVhbG1zL3BvYy1tYW5hZ2VtZW50IiwiYXVkIjoiaHR0cDovL2xvY2FsaG9zdDo4MDkxL2F1dGgvcmVhbG1zL3BvYy1tYW5hZ2VtZW50Iiwic3ViIjoiMjNiOGQzOTYtYzVlMC00ZjFjLWJhZjItNDUzMjRmYTRkZTU0IiwidHlwIjoiUmVmcmVzaCIsImF6cCI6ImZyb250LXBvYy1hcHAiLCJzZXNzaW9uX3N0YXRlIjoiOWY2M2IwN2ItMDhmNS00MTRlLWEwMDMtMzk2MmRhOWZiNmU1Iiwic2NvcGUiOiJwcm9maWxlIGVtYWlsIiwic2lkIjoiOWY2M2IwN2ItMDhmNS00MTRlLWEwMDMtMzk2MmRhOWZiNmU1In0.kitYj0O7dgqS2QGMS_cCa0Inmy3Jep1yVty6C2hWO_I",
+							"value": "eyJhbGciOiJIUzI1NiIsInR5cCIgOiAiSldUIiwia2lkIiA6ICJlZWQzMzQ1NS05ZGVkLTQ3ZGEtYWRmZC1mNDMxYTIxMzQzMmMifQ.eyJleHAiOjE3NDgyNzMyMTgsImlhdCI6MTc0ODI3MTQxOCwianRpIjoiZDQ3ZDE2MGEtNTM4MC00MDMzLTlkMTYtYTY0NDA5ZjA2OGMyIiwiaXNzIjoiaHR0cDovL2xvY2FsaG9zdDo4MDkxL2F1dGgvcmVhbG1zL3BvYy1tYW5hZ2VtZW50IiwiYXVkIjoiaHR0cDovL2xvY2FsaG9zdDo4MDkxL2F1dGgvcmVhbG1zL3BvYy1tYW5hZ2VtZW50Iiwic3ViIjoiOWRmY2MyZDUtMDNlNy00NWY1LWE3M2QtMWYyZDNhNTdlYWVhIiwidHlwIjoiUmVmcmVzaCIsImF6cCI6ImZyb250LXBvYy1hcHAiLCJzZXNzaW9uX3N0YXRlIjoiYzg5MzQzZmUtYmVmYy00ZjMyLWEwNjEtYWQwOGM2NjQ3NzI1Iiwic2NvcGUiOiJlbWFpbCBwcm9maWxlIiwic2lkIjoiYzg5MzQzZmUtYmVmYy00ZjMyLWEwNjEtYWQwOGM2NjQ3NzI1In0.V_RInCLsmCOUGNklZL3-HnHAshQX76yZI2M0s4Nxqxg",
 							"type": "text"
 						}
 					]
@@ -205,7 +403,196 @@
 					]
 				}
 			},
-			"response": []
+			"response": [
+				{
+					"name": "400 invalid refresh token",
+					"originalRequest": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "urlencoded",
+							"urlencoded": [
+								{
+									"key": "client_id",
+									"value": "front-poc-app",
+									"type": "text"
+								},
+								{
+									"key": "grant_type",
+									"value": "refresh_token",
+									"type": "text"
+								},
+								{
+									"key": "refresh_token",
+									"value": "eyJhbGciOiJIUxzI1NiIsInR5cCIgOiAiSldUIiwia2lkIiA6ICJlZWQzMzQ1NS05ZGVkLTQ3ZGEtYWRmZC1mNDMxYTIxMzQzMmMifQ.eyJleHAiOjE3NDgyNzMxMjMsImlhdCI6MTc0ODI3MTMyMywianRpIjoiNThjZjVmMDEtZDIwOC00N2EyLWE4ODAtNmVlM2RmNTQ3MDRmIiwiaXNzIjoiaHR0cDovL2xvY2FsaG9zdDo4MDkxL2F1dGgvcmVhbG1zL3BvYy1tYW5hZ2VtZW50IiwiYXVkIjoiaHR0cDovL2xvY2FsaG9zdDo4MDkxL2F1dGgvcmVhbG1zL3BvYy1tYW5hZ2VtZW50Iiwic3ViIjoiOWRmY2MyZDUtMDNlNy00NWY1LWE3M2QtMWYyZDNhNTdlYWVhIiwidHlwIjoiUmVmcmVzaCIsImF6cCI6ImZyb250LXBvYy1hcHAiLCJzZXNzaW9uX3N0YXRlIjoiNDI1NGVhNWQtZTZlZS00MWZhLTkwYTktMjVjYzJhOGQyNTJhIiwic2NvcGUiOiJlbWFpbCBwcm9maWxlIiwic2lkIjoiNDI1NGVhNWQtZTZlZS00MWZhLTkwYTktMjVjYzJhOGQyNTJhIn0.GPr31lJudMzzj18vCf1q61tzmTMHoUxoPdpc7fqb5NA",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "http://localhost:8091/auth/realms/poc-management/protocol/openid-connect/token",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8091",
+							"path": [
+								"auth",
+								"realms",
+								"poc-management",
+								"protocol",
+								"openid-connect",
+								"token"
+							]
+						}
+					},
+					"status": "Bad Request",
+					"code": 400,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Cache-Control",
+							"value": "no-store"
+						},
+						{
+							"key": "X-XSS-Protection",
+							"value": "1; mode=block"
+						},
+						{
+							"key": "Pragma",
+							"value": "no-cache"
+						},
+						{
+							"key": "X-Frame-Options",
+							"value": "SAMEORIGIN"
+						},
+						{
+							"key": "Referrer-Policy",
+							"value": "no-referrer"
+						},
+						{
+							"key": "Date",
+							"value": "Mon, 26 May 2025 14:55:43 GMT"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"key": "Strict-Transport-Security",
+							"value": "max-age=31536000; includeSubDomains"
+						},
+						{
+							"key": "X-Content-Type-Options",
+							"value": "nosniff"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json"
+						},
+						{
+							"key": "Content-Length",
+							"value": "69"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"error\": \"invalid_grant\",\n    \"error_description\": \"Invalid refresh token\"\n}"
+				},
+				{
+					"name": "400 - session not active",
+					"originalRequest": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "urlencoded",
+							"urlencoded": [
+								{
+									"key": "client_id",
+									"value": "front-poc-app",
+									"type": "text"
+								},
+								{
+									"key": "grant_type",
+									"value": "refresh_token",
+									"type": "text"
+								},
+								{
+									"key": "refresh_token",
+									"value": "eyJhbGciOiJIUzI1NiIsInR5cCIgOiAiSldUIiwia2lkIiA6ICJlZWQzMzQ1NS05ZGVkLTQ3ZGEtYWRmZC1mNDMxYTIxMzQzMmMifQ.eyJleHAiOjE3NDgyNzMyMTgsImlhdCI6MTc0ODI3MTQxOCwianRpIjoiZDQ3ZDE2MGEtNTM4MC00MDMzLTlkMTYtYTY0NDA5ZjA2OGMyIiwiaXNzIjoiaHR0cDovL2xvY2FsaG9zdDo4MDkxL2F1dGgvcmVhbG1zL3BvYy1tYW5hZ2VtZW50IiwiYXVkIjoiaHR0cDovL2xvY2FsaG9zdDo4MDkxL2F1dGgvcmVhbG1zL3BvYy1tYW5hZ2VtZW50Iiwic3ViIjoiOWRmY2MyZDUtMDNlNy00NWY1LWE3M2QtMWYyZDNhNTdlYWVhIiwidHlwIjoiUmVmcmVzaCIsImF6cCI6ImZyb250LXBvYy1hcHAiLCJzZXNzaW9uX3N0YXRlIjoiYzg5MzQzZmUtYmVmYy00ZjMyLWEwNjEtYWQwOGM2NjQ3NzI1Iiwic2NvcGUiOiJlbWFpbCBwcm9maWxlIiwic2lkIjoiYzg5MzQzZmUtYmVmYy00ZjMyLWEwNjEtYWQwOGM2NjQ3NzI1In0.V_RInCLsmCOUGNklZL3-HnHAshQX76yZI2M0s4Nxqxg",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "http://localhost:8091/auth/realms/poc-management/protocol/openid-connect/token",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8091",
+							"path": [
+								"auth",
+								"realms",
+								"poc-management",
+								"protocol",
+								"openid-connect",
+								"token"
+							]
+						}
+					},
+					"status": "Bad Request",
+					"code": 400,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "Cache-Control",
+							"value": "no-store"
+						},
+						{
+							"key": "X-XSS-Protection",
+							"value": "1; mode=block"
+						},
+						{
+							"key": "Pragma",
+							"value": "no-cache"
+						},
+						{
+							"key": "X-Frame-Options",
+							"value": "SAMEORIGIN"
+						},
+						{
+							"key": "Referrer-Policy",
+							"value": "no-referrer"
+						},
+						{
+							"key": "Date",
+							"value": "Mon, 26 May 2025 14:57:26 GMT"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"key": "Strict-Transport-Security",
+							"value": "max-age=31536000; includeSubDomains"
+						},
+						{
+							"key": "X-Content-Type-Options",
+							"value": "nosniff"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json"
+						},
+						{
+							"key": "Content-Length",
+							"value": "66"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"error\": \"invalid_grant\",\n    \"error_description\": \"Session not active\"\n}"
+				}
+			]
 		},
 		{
 			"name": "logout",
@@ -222,7 +609,7 @@
 						},
 						{
 							"key": "refresh_token",
-							"value": "eyJhbGciOiJIUzI1NiIsInR5cCIgOiAiSldUIiwia2lkIiA6ICJkNzU5ZTgwNS1hZmNiLTRmYmMtOTg1ZC1iMGM0MDAzNTkwMmYifQ.eyJleHAiOjE3NDcxNzc2MDQsImlhdCI6MTc0NzE3NTgwNCwianRpIjoiY2ExYzBmMzctMGMyZS00Y2VlLWFlYmEtMzcxMjNmOTc1YTI0IiwiaXNzIjoiaHR0cDovL2xvY2FsaG9zdDo4MDkxL2F1dGgvcmVhbG1zL3BvYy1tYW5hZ2VtZW50IiwiYXVkIjoiaHR0cDovL2xvY2FsaG9zdDo4MDkxL2F1dGgvcmVhbG1zL3BvYy1tYW5hZ2VtZW50Iiwic3ViIjoiMjNiOGQzOTYtYzVlMC00ZjFjLWJhZjItNDUzMjRmYTRkZTU0IiwidHlwIjoiUmVmcmVzaCIsImF6cCI6ImZyb250LXBvYy1hcHAiLCJzZXNzaW9uX3N0YXRlIjoiOWRkY2VmZTAtNjgxZC00MzUzLWFjZjItMzY5YWJlYTZhNzBkIiwic2NvcGUiOiJwcm9maWxlIGVtYWlsIiwic2lkIjoiOWRkY2VmZTAtNjgxZC00MzUzLWFjZjItMzY5YWJlYTZhNzBkIn0.kPyfQL8E7ZRKqoQzL6vjwNHdfmkMoMcS8FXHuyxrxnk",
+							"value": "eyJhbGciOiJIUzI1NiIsInR5cCIgOiAiSldUIiwia2lkIiA6ICJlZWQzMzQ1NS05ZGVkLTQ3ZGEtYWRmZC1mNDMxYTIxMzQzMmMifQ.eyJleHAiOjE3NDgyNzMyMTgsImlhdCI6MTc0ODI3MTQxOCwianRpIjoiZDQ3ZDE2MGEtNTM4MC00MDMzLTlkMTYtYTY0NDA5ZjA2OGMyIiwiaXNzIjoiaHR0cDovL2xvY2FsaG9zdDo4MDkxL2F1dGgvcmVhbG1zL3BvYy1tYW5hZ2VtZW50IiwiYXVkIjoiaHR0cDovL2xvY2FsaG9zdDo4MDkxL2F1dGgvcmVhbG1zL3BvYy1tYW5hZ2VtZW50Iiwic3ViIjoiOWRmY2MyZDUtMDNlNy00NWY1LWE3M2QtMWYyZDNhNTdlYWVhIiwidHlwIjoiUmVmcmVzaCIsImF6cCI6ImZyb250LXBvYy1hcHAiLCJzZXNzaW9uX3N0YXRlIjoiYzg5MzQzZmUtYmVmYy00ZjMyLWEwNjEtYWQwOGM2NjQ3NzI1Iiwic2NvcGUiOiJlbWFpbCBwcm9maWxlIiwic2lkIjoiYzg5MzQzZmUtYmVmYy00ZjMyLWEwNjEtYWQwOGM2NjQ3NzI1In0.V_RInCLsmCOUGNklZL3-HnHAshQX76yZI2M0s4Nxqxg",
 							"type": "text"
 						}
 					]
@@ -244,7 +631,85 @@
 					]
 				}
 			},
-			"response": []
+			"response": [
+				{
+					"name": "204",
+					"originalRequest": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "urlencoded",
+							"urlencoded": [
+								{
+									"key": "client_id",
+									"value": "front-poc-app",
+									"type": "text"
+								},
+								{
+									"key": "refresh_token",
+									"value": "eyJhbGciOiJIUzI1NiIsInR5cCIgOiAiSldUIiwia2lkIiA6ICJlZWQzMzQ1NS05ZGVkLTQ3ZGEtYWRmZC1mNDMxYTIxMzQzMmMifQ.eyJleHAiOjE3NDgyNzMyMTgsImlhdCI6MTc0ODI3MTQxOCwianRpIjoiZDQ3ZDE2MGEtNTM4MC00MDMzLTlkMTYtYTY0NDA5ZjA2OGMyIiwiaXNzIjoiaHR0cDovL2xvY2FsaG9zdDo4MDkxL2F1dGgvcmVhbG1zL3BvYy1tYW5hZ2VtZW50IiwiYXVkIjoiaHR0cDovL2xvY2FsaG9zdDo4MDkxL2F1dGgvcmVhbG1zL3BvYy1tYW5hZ2VtZW50Iiwic3ViIjoiOWRmY2MyZDUtMDNlNy00NWY1LWE3M2QtMWYyZDNhNTdlYWVhIiwidHlwIjoiUmVmcmVzaCIsImF6cCI6ImZyb250LXBvYy1hcHAiLCJzZXNzaW9uX3N0YXRlIjoiYzg5MzQzZmUtYmVmYy00ZjMyLWEwNjEtYWQwOGM2NjQ3NzI1Iiwic2NvcGUiOiJlbWFpbCBwcm9maWxlIiwic2lkIjoiYzg5MzQzZmUtYmVmYy00ZjMyLWEwNjEtYWQwOGM2NjQ3NzI1In0.V_RInCLsmCOUGNklZL3-HnHAshQX76yZI2M0s4Nxqxg",
+									"type": "text"
+								}
+							]
+						},
+						"url": {
+							"raw": "http://localhost:8091/auth/realms/poc-management/protocol/openid-connect/logout",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8091",
+							"path": [
+								"auth",
+								"realms",
+								"poc-management",
+								"protocol",
+								"openid-connect",
+								"logout"
+							]
+						}
+					},
+					"status": "No Content",
+					"code": 204,
+					"_postman_previewlanguage": "plain",
+					"header": [
+						{
+							"key": "X-XSS-Protection",
+							"value": "1; mode=block"
+						},
+						{
+							"key": "X-Frame-Options",
+							"value": "SAMEORIGIN"
+						},
+						{
+							"key": "Referrer-Policy",
+							"value": "no-referrer"
+						},
+						{
+							"key": "Content-Security-Policy",
+							"value": "frame-src 'self'; frame-ancestors 'self'; object-src 'none';"
+						},
+						{
+							"key": "Date",
+							"value": "Mon, 26 May 2025 14:57:15 GMT"
+						},
+						{
+							"key": "X-Robots-Tag",
+							"value": "none"
+						},
+						{
+							"key": "Strict-Transport-Security",
+							"value": "max-age=31536000; includeSubDomains"
+						},
+						{
+							"key": "X-Content-Type-Options",
+							"value": "nosniff"
+						}
+					],
+					"cookie": [],
+					"body": null
+				}
+			]
 		},
 		{
 			"name": "get user info",
@@ -254,7 +719,7 @@
 					"bearer": [
 						{
 							"key": "token",
-							"value": "eyJhbGciOiJSUzI1NiIsInR5cCIgOiAiSldUIiwia2lkIiA6ICJ1V0x3VGpodkVMb3dEUWU4dWNnZ0ktdjZnUmJWakRkV1RPN2Y1YkZ6ZnRJIn0.eyJleHAiOjE3NDcxNzc3NTIsImlhdCI6MTc0NzE3NTk1MiwianRpIjoiMDc4Mjc3MmYtNGY0My00YzUxLWFjZWQtZjIzZTI2MDg0NzgwIiwiaXNzIjoiaHR0cDovL2xvY2FsaG9zdDo4MDkxL2F1dGgvcmVhbG1zL3BvYy1tYW5hZ2VtZW50IiwiYXVkIjoiYWNjb3VudCIsInN1YiI6IjIzYjhkMzk2LWM1ZTAtNGYxYy1iYWYyLTQ1MzI0ZmE0ZGU1NCIsInR5cCI6IkJlYXJlciIsImF6cCI6ImZyb250LXBvYy1hcHAiLCJzZXNzaW9uX3N0YXRlIjoiMzllNDZkNmMtMDI0ZC00MWZlLWEwMTctMDgxMWIzYjQ5ZTlmIiwiYWNyIjoiMSIsInJlYWxtX2FjY2VzcyI6eyJyb2xlcyI6WyJwYXJ0bmVycyIsIm9mZmxpbmVfYWNjZXNzIiwidW1hX2F1dGhvcml6YXRpb24iLCJkZWZhdWx0LXJvbGVzLXBvYy1tYW5hZ2VtZW50Il19LCJyZXNvdXJjZV9hY2Nlc3MiOnsiYWNjb3VudCI6eyJyb2xlcyI6WyJtYW5hZ2UtYWNjb3VudCIsIm1hbmFnZS1hY2NvdW50LWxpbmtzIiwidmlldy1wcm9maWxlIl19fSwic2NvcGUiOiJwcm9maWxlIGVtYWlsIiwic2lkIjoiMzllNDZkNmMtMDI0ZC00MWZlLWEwMTctMDgxMWIzYjQ5ZTlmIiwiZW1haWxfdmVyaWZpZWQiOmZhbHNlLCJwcmVmZXJyZWRfdXNlcm5hbWUiOiJhZG1pbiJ9.Eei6qygsVfUsZSKJ3FKSo17W68Qlii_0soEbWs9okDk8tSN7vzUGcPJuPzpQ0Yk8RQYsezBFpKzJ1ocYCeWm8DYJ2Wji8kbs7x5xBZ4Aar8NT_iY1Mez_jKnRvPyTtaisJo12iGPzj4dCKy2BuBMyr0w77KrBZqMXv2G58OUelofFWpXbnoGVgH4gDr7RPqqq_oVFhcU6bGnsPhtbWU9cWm5lf3eNuLWLjkirAuUpyWoDKRA2SOn2WHroqzhBRJesHPtnyxd9CFyr8X8IruitwLNvU4dOk_AwMwPkaUJZz9J-zDUNnz1TEHENNH9V1IgMkLWkiFKao8zjGK7GvrOxQ",
+							"value": "eyJhbGciOiJSUzI1NiIsInR5cCIgOiAiSldUIiwia2lkIiA6ICJPV000NXgyZXZxUHB2WlZqa2VkZXVUM21wRlJJWGdSOThCTTRFWlB1Z2owIn0.eyJleHAiOjE3NDgyNzMzMjIsImlhdCI6MTc0ODI3MTUyMiwianRpIjoiZGRjOGQzOGMtZWRlMi00YmYxLTliNjMtZGNlM2NmMzY1YjRhIiwiaXNzIjoiaHR0cDovL2xvY2FsaG9zdDo4MDkxL2F1dGgvcmVhbG1zL3BvYy1tYW5hZ2VtZW50IiwiYXVkIjoiYWNjb3VudCIsInN1YiI6IjlkZmNjMmQ1LTAzZTctNDVmNS1hNzNkLTFmMmQzYTU3ZWFlYSIsInR5cCI6IkJlYXJlciIsImF6cCI6ImZyb250LXBvYy1hcHAiLCJzZXNzaW9uX3N0YXRlIjoiMDk3MThkYTQtODYwYy00MzExLTk0MWMtMDkzNWU1MzZkMWY2IiwiYWNyIjoiMSIsInJlYWxtX2FjY2VzcyI6eyJyb2xlcyI6WyJwYXJ0bmVycyIsIm9mZmxpbmVfYWNjZXNzIiwidW1hX2F1dGhvcml6YXRpb24iLCJkZWZhdWx0LXJvbGVzLXBvYy1tYW5hZ2VtZW50Il19LCJyZXNvdXJjZV9hY2Nlc3MiOnsiYWNjb3VudCI6eyJyb2xlcyI6WyJtYW5hZ2UtYWNjb3VudCIsIm1hbmFnZS1hY2NvdW50LWxpbmtzIiwidmlldy1wcm9maWxlIl19fSwic2NvcGUiOiJlbWFpbCBwcm9maWxlIiwic2lkIjoiMDk3MThkYTQtODYwYy00MzExLTk0MWMtMDkzNWU1MzZkMWY2IiwiZW1haWxfdmVyaWZpZWQiOmZhbHNlLCJwcmVmZXJyZWRfdXNlcm5hbWUiOiJhZG1pbiJ9.Es3SVGReKKnO76_pDgsJQQvois_MoePQThFu2ihd8l2sEyn57lzmX9oBkNBoy0TK2sEw-iHand_4S4gKg0VSjwcZyfjWEiCqwGMJborhqycD4xjHYO_IsEmSZ7S9VbylBaUaQkPL-JaT67gWTkmUJ2YIXNt7yGkjFnW87QALJbNJ6lgcGDx5t-THjzY8I56nwdsBvhk5j2pczHoG8TDVqDPfGq2KbruhVlh4is3Yb0ezKcJ0yD8YjBMSv0mE2LSG8WCTLvefy_eN34OMbYR_liYUsdqOSusBXGICWTrBFIVGfN1Hth5g8RqfR4Qod27MZykXWUbbeEsaU1oyMSWldQ",
 							"type": "string"
 						}
 					]
@@ -282,7 +747,152 @@
 					]
 				}
 			},
-			"response": []
+			"response": [
+				{
+					"name": "401 - token verification failed",
+					"originalRequest": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "urlencoded",
+							"urlencoded": []
+						},
+						"url": {
+							"raw": "http://localhost:8091/auth/realms/poc-management/protocol/openid-connect/userinfo",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8091",
+							"path": [
+								"auth",
+								"realms",
+								"poc-management",
+								"protocol",
+								"openid-connect",
+								"userinfo"
+							]
+						}
+					},
+					"status": "Unauthorized",
+					"code": 401,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "X-XSS-Protection",
+							"value": "1; mode=block"
+						},
+						{
+							"key": "X-Frame-Options",
+							"value": "SAMEORIGIN"
+						},
+						{
+							"key": "Referrer-Policy",
+							"value": "no-referrer"
+						},
+						{
+							"key": "Date",
+							"value": "Mon, 26 May 2025 14:58:26 GMT"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"key": "WWW-Authenticate",
+							"value": "Bearer realm=\"poc-management\", error=\"invalid_token\", error_description=\"Token verification failed\""
+						},
+						{
+							"key": "Strict-Transport-Security",
+							"value": "max-age=31536000; includeSubDomains"
+						},
+						{
+							"key": "X-Content-Type-Options",
+							"value": "nosniff"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json"
+						},
+						{
+							"key": "Content-Length",
+							"value": "73"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"error\": \"invalid_token\",\n    \"error_description\": \"Token verification failed\"\n}"
+				},
+				{
+					"name": "200",
+					"originalRequest": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "urlencoded",
+							"urlencoded": []
+						},
+						"url": {
+							"raw": "http://localhost:8091/auth/realms/poc-management/protocol/openid-connect/userinfo",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "8091",
+							"path": [
+								"auth",
+								"realms",
+								"poc-management",
+								"protocol",
+								"openid-connect",
+								"userinfo"
+							]
+						}
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "X-XSS-Protection",
+							"value": "1; mode=block"
+						},
+						{
+							"key": "X-Frame-Options",
+							"value": "SAMEORIGIN"
+						},
+						{
+							"key": "Referrer-Policy",
+							"value": "no-referrer"
+						},
+						{
+							"key": "Date",
+							"value": "Mon, 26 May 2025 14:58:51 GMT"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"key": "Strict-Transport-Security",
+							"value": "max-age=31536000; includeSubDomains"
+						},
+						{
+							"key": "X-Content-Type-Options",
+							"value": "nosniff"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json"
+						},
+						{
+							"key": "Content-Length",
+							"value": "98"
+						}
+					],
+					"cookie": [],
+					"body": "{\n    \"sub\": \"9dfcc2d5-03e7-45f5-a73d-1f2d3a57eaea\",\n    \"email_verified\": false,\n    \"preferred_username\": \"admin\"\n}"
+				}
+			]
 		}
 	]
 }
